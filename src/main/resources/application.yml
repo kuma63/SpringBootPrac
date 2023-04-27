@@ -1,0 +1,24 @@
+logging:
+  level:
+    root: info # デバッグレベルだと多くのログが出力されるのですぐに1MBに達する
+  file:
+    name: app.log
+  logback:
+    rollingpolicy:
+      max-file-size: 1MB
+      
+spring:
+    datasource:
+        url: "jdbc:oracle:thin:@192.168.1.34:1521/XEPDB1"
+        username: "matsuguma"
+        password: "pass12"
+        driverClassName: oracle.jdbc.driver.OracleDriver
+    
+    sql:
+        init:
+            mode: always  # Spring bootを再起動するたびにSQLを実行
+            encoding: UTF-8
+            
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true

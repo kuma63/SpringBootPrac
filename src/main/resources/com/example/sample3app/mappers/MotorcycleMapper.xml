@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.sample3app.mappers.MotorcycleMapper">
+  <resultMap id="motorcycleMap" type="com.example.sample3app.beans.Motorcycle" autoMapping="true">
+    <association property="brand" javaType="com.example.sample3app.beans.Brand" autoMapping="true">
+    	<result column="m_motorcycle.brand_id" property="brandId"></result>
+    	<result column="m_brand.brand_name" property="brandName"></result>
+    </association>
+  </resultMap>
+  <select id="selectByCondition" resultMap="motorcycleMap">
+    SELECT
+        m_motorcycle.moto_no
+        , m_motorcycle.moto_name
+        , m_motorcycle.brand_id
+        , m_motorcycle.cylinder 
+        , m_motorcycle.cooling 
+        , m_motorcycle.price 
+        , m_motorcycle.comments 
+        , m_brand.brand_name 
+    FROM
+        m_motorcycle 
+        LEFT OUTER JOIN m_brand 
+            ON m_motorcycle.brand_id = m_brand.brand_id 
+    <where>
+      <if test="brandId != null">
+         AND m_motorcycle.brand_id = #{brandId}
+      </if>
+      <if test="keyword != null">
+         AND m_motorcycle.moto_name LIKE '%' || #{keyword} || '%'
+      </if>
+    </where>
+    ORDER BY
+        moto_no
+  </select>
+  <select id="selectByPK" resultMap="motorcycleMap">
+    SELECT
+        m_motorcycle.moto_no
+        , m_motorcycle.moto_name
+        , m_motorcycle.seat_height
+        , m_motorcycle.cylinder
+        , m_motorcycle.cooling
+        , m_motorcycle.price
+        , m_motorcycle.comments
+        , m_motorcycle.brand_id
+        , m_motorcycle.version 
+        , m_brand.brand_name 
+    FROM
+        m_motorcycle 
+        LEFT OUTER JOIN m_brand 
+            ON m_motorcycle.brand_id = m_brand.brand_id 
+    WHERE
+    	m_motorcycle.moto_no = #{motoNo}
+    ORDER BY
+        moto_no
+  </select>
+</mapper>
