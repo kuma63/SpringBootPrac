@@ -3,9 +3,10 @@ package com.example.sample3app.mappers;
 import java.util.List;
 
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Update;
 
 import com.example.sample3app.beans.Motorcycle;
-import com.example.sample3app.beans.SearchCondition;
+import com.example.sample3app.beans.SearchForm;
 
 
 @Mapper
@@ -15,7 +16,7 @@ public interface MotorcycleMapper {
      * @param condition 検索条件
      * @return バイク情報リスト
      */
-    public List<Motorcycle> selectByCondition(SearchCondition condition);
+    public List<Motorcycle> selectByCondition(SearchForm condition);
     
     /*
      * バイク情報を主キーで検索する
@@ -23,4 +24,11 @@ public interface MotorcycleMapper {
      * @return バイク情報
      */
     public Motorcycle selectByPK(int motoNo);
+    /**
+     * バイク情報を更新する
+     * @param moto バイク情報
+     * @return 更新件数
+     */
+    @Update("UPDATE M_MOTORCYCLE SET MOTO_NAME = #{motoName}, SEAT_HEIGHT = #{seatHeight}, CYLINDER = #{cylinder}, COOLING = #{cooling}, PRICE = #{price}, COMMENTS = #{comments}, BRAND_ID = #{brandId}, VERSION = VERSION + 1 WHERE MOTO_NO = #{motoNo}")
+    public int update(Motorcycle moto);
 }

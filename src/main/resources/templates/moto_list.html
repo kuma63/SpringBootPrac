@@ -28,29 +28,32 @@
 		</div>
 	</nav>
     <div class="container">
-	  <div class="row">
-	    <div class="col">
-			<div class="mb-3">
-  				<label for="brand" class="form-label">バイクメーカー</label>
-  				<select class="form-select" id="brand" aria-label="Default select example">
-				  <option th:each="brand : ${brands}" th:text="${brand.brandName}" th:value="${brand.brandId}"></option>
-				</select>
-			</div>
-	    </div>
-	    <div class="col">
-			<div class="mb-3">
-  				<label for="keyword" class="form-label">キーワード</label>
-  				<input type="text" class="form-control" id="keyword">
-			</div>
-	    </div>
-	  </div>
-	  <div class="row">
-		  <div class="col d-flex flex-row-reverse">
-			<button type="button" class="btn btn-primary">新規</button>
-			<button type="button" class="btn btn-secondary ms-1 me-1">リセット</button>
-			<button type="button" class="btn btn-success">検索</button>
+	  <form th:action="@{/motos}" method="get">
+		  <div class="row">
+		    <div class="col">
+				<div class="mb-3">
+	  				<label for="brand" class="form-label">バイクメーカー</label>
+	  				<select class="form-select" th:field="${searchForm.brandId}" id="brand" aria-label="Default select example">
+					  <option value=""></option>
+					  <option th:each="brand : ${brands}" th:text="${brand.brandName}" th:value="${brand.brandId}"></option>
+					</select>
+				</div>
+		    </div>
+		    <div class="col">
+				<div class="mb-3">
+	  				<label for="keyword" class="form-label">キーワード</label>
+	  				<input type="text" class="form-control" th:field="${searchForm.keyword}" id="keyword" placeholder="車名もしくはコメントの一部を入力">
+				</div>
+		    </div>
 		  </div>
-	  </div>
+		  <div class="row">
+			  <div class="col d-flex flex-row-reverse">
+				<button type="button" class="btn btn-primary">新規</button>
+				<a th:href="@{/motos/reset}" class="btn btn-secondary ms-1 me-1">リセット</a>
+				<button type="submit" class="btn btn-success">検索</button>
+			  </div>
+		  </div>
+	  </form>
 	  <div class="row">
 		<div class="col">
 			<table class="table table-dark table-striped mt-3">

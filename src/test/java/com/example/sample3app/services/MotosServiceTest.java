@@ -10,9 +10,11 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.annotation.Rollback;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.example.sample3app.beans.Motorcycle;
-import com.example.sample3app.beans.SearchCondition;
+import com.example.sample3app.beans.SearchForm;
 
 @SpringBootTest
 public class MotosServiceTest {
@@ -41,7 +43,7 @@ public class MotosServiceTest {
 	@ParameterizedTest
 	@CsvSource({"01, GB350", "02, Z900RS"})
 	void test001(String brandId, String motoName) {
-		SearchCondition condition = new SearchCondition();
+		SearchForm condition = new SearchForm();
 		condition.setBrandId(brandId);
 		
 		List<Motorcycle> motos = service.getMotos(condition);
@@ -55,7 +57,7 @@ public class MotosServiceTest {
 	@DisplayName("バイク一覧取得 条件: ブランドID 該当なし")
 	@Test
 	void test002() {
-		SearchCondition condition = new SearchCondition();
+		SearchForm condition = new SearchForm();
 		condition.setBrandId("99");
 		
 		List<Motorcycle> motos = service.getMotos(condition);
@@ -66,7 +68,7 @@ public class MotosServiceTest {
 	@ParameterizedTest
 	@CsvSource({"GB350", "Z900RS"})
 	void test003(String motoName) {
-		SearchCondition condition = new SearchCondition();
+		SearchForm condition = new SearchForm();
 		condition.setKeyword(motoName);
 		
 		List<Motorcycle> motos = service.getMotos(condition);
@@ -84,7 +86,7 @@ public class MotosServiceTest {
 	@ParameterizedTest
 	@CsvSource({"Z900R, Z900RS", "350, GB350", "be125, Rebe1250"})
 	void test004(String keyword, String motoName) {
-		SearchCondition condition = new SearchCondition();
+		SearchForm condition = new SearchForm();
 		condition.setKeyword(keyword);
 		
 		List<Motorcycle> motos = service.getMotos(condition);
@@ -98,7 +100,7 @@ public class MotosServiceTest {
 	@DisplayName("バイク一覧取得 条件: バイク名 該当なし")
 	@Test
 	void test005() {
-		SearchCondition condition = new SearchCondition();
+		SearchForm condition = new SearchForm();
 		condition.setKeyword("AAA");
 		
 		List<Motorcycle> motos = service.getMotos(condition);
@@ -109,7 +111,7 @@ public class MotosServiceTest {
 	@ParameterizedTest
 	@CsvSource({"02, Z900R, Z900RS", "01, 350, GB350", "03, be125, Rebe1250"})
 	void test006(String brandId, String keyword, String motoName) {
-		SearchCondition condition = new SearchCondition();
+		SearchForm condition = new SearchForm();
 		condition.setBrandId(brandId);
 		condition.setKeyword(keyword);
 		
@@ -124,7 +126,7 @@ public class MotosServiceTest {
 	@DisplayName("バイク一覧取得 条件: ブランドID, バイク名 該当なし")
 	@Test
 	void test007() {
-		SearchCondition condition = new SearchCondition();
+		SearchForm condition = new SearchForm();
 		condition.setBrandId("99");
 		condition.setKeyword("AAA");
 		
@@ -135,7 +137,7 @@ public class MotosServiceTest {
 	@DisplayName("バイク一覧取得 条件: なし 全件該当")
 	@Test
 	void test008() {
-		SearchCondition condition = new SearchCondition();
+		SearchForm condition = new SearchForm();
 			
 		List<Motorcycle> motos = service.getMotos(condition);
 		assertThat(motos.size()).isEqualTo(3); 
@@ -169,6 +171,8 @@ public class MotosServiceTest {
 
 	@DisplayName("バイク情報更新")
 	@Test
+	@Transactional
+	@Rollback
 	void test011() {
 		Motorcycle before = service.getMotos(1);
 		before.setMotoName("motomoto");

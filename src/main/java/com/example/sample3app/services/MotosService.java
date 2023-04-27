@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 import com.example.sample3app.beans.Brand;
 import com.example.sample3app.beans.Motorcycle;
-import com.example.sample3app.beans.SearchCondition;
+import com.example.sample3app.beans.SearchForm;
 import com.example.sample3app.mappers.BrandMapper;
 import com.example.sample3app.mappers.MotorcycleMapper;
 
@@ -19,7 +19,7 @@ public class MotosService {
 	@Autowired
 	BrandMapper brandMapper;
     
-    public List<Motorcycle> getMotos(SearchCondition condition) {
+    public List<Motorcycle> getMotos(SearchForm condition) {
         return mapper.selectByCondition(condition);
        
     }
@@ -33,8 +33,8 @@ public class MotosService {
     	return brandMapper.selectAll();
     }
 
-	public void save(Motorcycle before) {
-		// TODO 自動生成されたメソッド・スタブ
+	public int save(Motorcycle moto) {
+		return mapper.update(moto);
 		
 	}
 }
