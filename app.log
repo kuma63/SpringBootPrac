@@ -880,3 +880,93 @@ Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.JoinPoint
 2023-04-27 17:32:38.786  INFO 15212 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
 2023-04-27 17:32:39.024  INFO 15212 --- [http-nio-8080-exec-1] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.motos(..)) END
 2023-04-27 17:33:10.303  INFO 15212 --- [http-nio-8080-exec-2] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.motos(..)) START
+2023-04-27 17:33:10.304  INFO 15212 --- [http-nio-8080-exec-2] c.e.s.controllers.MotosController        : 検索条件：SearchForm(brandId=null, keyword=null)
+2023-04-27 17:33:10.310  INFO 15212 --- [http-nio-8080-exec-2] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.motos(..)) END
+2023-04-27 17:50:08.485  INFO 15212 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-27 17:50:08.501  INFO 15212 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-27 17:50:08.559  INFO 15212 --- [restartedMain] c.e.s.SampleBootApp3Application          : Starting SampleBootApp3Application using Java 17.0.5 on DELL-MATSUGUMA with PID 15212 (C:\pleiades\2022-12\workspace\SampleBootApp3\bin\main started by y-mat in C:\pleiades\2022-12\workspace\SampleBootApp3)
+2023-04-27 17:50:08.559  INFO 15212 --- [restartedMain] c.e.s.SampleBootApp3Application          : No active profile set, falling back to 1 default profile: "default"
+2023-04-27 17:50:08.734  INFO 15212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-27 17:50:08.735  INFO 15212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-27 17:50:08.735  INFO 15212 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-04-27 17:50:08.747  INFO 15212 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-27 17:50:08.747  INFO 15212 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 186 ms
+2023-04-27 17:50:09.043  INFO 15212 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-27 17:50:09.056  INFO 15212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-27 17:50:09.060  INFO 15212 --- [restartedMain] c.e.s.SampleBootApp3Application          : Started SampleBootApp3Application in 0.521 seconds (JVM running for 1069.225)
+2023-04-27 17:50:09.062  INFO 15212 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-27 17:52:16.629  INFO 15212 --- [restartedMain] c.e.s.SampleBootApp3Application          : Starting SampleBootApp3Application using Java 17.0.5 on DELL-MATSUGUMA with PID 15212 (C:\pleiades\2022-12\workspace\SampleBootApp3\bin\main started by y-mat in C:\pleiades\2022-12\workspace\SampleBootApp3)
+2023-04-27 17:52:16.629  INFO 15212 --- [restartedMain] c.e.s.SampleBootApp3Application          : No active profile set, falling back to 1 default profile: "default"
+2023-04-27 17:52:16.795  INFO 15212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-27 17:52:16.796  INFO 15212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-27 17:52:16.796  INFO 15212 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-04-27 17:52:16.811  INFO 15212 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-27 17:52:16.812  INFO 15212 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 181 ms
+2023-04-27 17:52:17.068  INFO 15212 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-27 17:52:17.076  INFO 15212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-27 17:52:17.080  INFO 15212 --- [restartedMain] c.e.s.SampleBootApp3Application          : Started SampleBootApp3Application in 0.469 seconds (JVM running for 1197.246)
+2023-04-27 17:52:17.082  INFO 15212 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-27 17:53:45.412  INFO 15212 --- [restartedMain] c.e.s.SampleBootApp3Application          : Starting SampleBootApp3Application using Java 17.0.5 on DELL-MATSUGUMA with PID 15212 (C:\pleiades\2022-12\workspace\SampleBootApp3\bin\main started by y-mat in C:\pleiades\2022-12\workspace\SampleBootApp3)
+2023-04-27 17:53:45.413  INFO 15212 --- [restartedMain] c.e.s.SampleBootApp3Application          : No active profile set, falling back to 1 default profile: "default"
+2023-04-27 17:53:45.555  INFO 15212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-27 17:53:45.556  INFO 15212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-27 17:53:45.556  INFO 15212 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-04-27 17:53:45.568  INFO 15212 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-27 17:53:45.568  INFO 15212 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 154 ms
+2023-04-27 17:53:45.792  INFO 15212 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-27 17:53:45.801  INFO 15212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-27 17:53:45.805  INFO 15212 --- [restartedMain] c.e.s.SampleBootApp3Application          : Started SampleBootApp3Application in 0.409 seconds (JVM running for 1285.971)
+2023-04-27 17:53:45.807  INFO 15212 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-27 17:53:53.343  INFO 15212 --- [restartedMain] c.e.s.SampleBootApp3Application          : Starting SampleBootApp3Application using Java 17.0.5 on DELL-MATSUGUMA with PID 15212 (C:\pleiades\2022-12\workspace\SampleBootApp3\bin\main started by y-mat in C:\pleiades\2022-12\workspace\SampleBootApp3)
+2023-04-27 17:53:53.343  INFO 15212 --- [restartedMain] c.e.s.SampleBootApp3Application          : No active profile set, falling back to 1 default profile: "default"
+2023-04-27 17:53:53.494  INFO 15212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-27 17:53:53.495  INFO 15212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-27 17:53:53.495  INFO 15212 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-04-27 17:53:53.506  INFO 15212 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-27 17:53:53.506  INFO 15212 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 161 ms
+2023-04-27 17:53:53.733  INFO 15212 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-27 17:53:53.743  INFO 15212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-27 17:53:53.748  INFO 15212 --- [restartedMain] c.e.s.SampleBootApp3Application          : Started SampleBootApp3Application in 0.422 seconds (JVM running for 1293.913)
+2023-04-27 17:53:53.751  INFO 15212 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-27 17:54:57.758  INFO 15212 --- [RMI TCP Connection(42)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-27 17:55:00.878  INFO 18176 --- [restartedMain] c.e.s.SampleBootApp3Application          : Starting SampleBootApp3Application using Java 17.0.5 on DELL-MATSUGUMA with PID 18176 (C:\pleiades\2022-12\workspace\SampleBootApp3\bin\main started by y-mat in C:\pleiades\2022-12\workspace\SampleBootApp3)
+2023-04-27 17:55:00.878  INFO 18176 --- [restartedMain] c.e.s.SampleBootApp3Application          : No active profile set, falling back to 1 default profile: "default"
+2023-04-27 17:55:00.920  INFO 18176 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\y-mat\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc11\23.2.0.0\a19cc23a15caea09f4883e938907129354239e75\ojdbc11-23.2.0.0.jar referenced one or more files that do not exist: file:/C:/Users/y-mat/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc11/23.2.0.0/a19cc23a15caea09f4883e938907129354239e75/oraclepki.jar
+2023-04-27 17:55:00.920  INFO 18176 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-27 17:55:00.920  INFO 18176 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-27 17:55:01.947  INFO 18176 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-27 17:55:01.957  INFO 18176 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-27 17:55:01.957  INFO 18176 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-04-27 17:55:02.007  INFO 18176 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-27 17:55:02.007  INFO 18176 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1086 ms
+2023-04-27 17:55:02.761  INFO 18176 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-27 17:55:02.796  INFO 18176 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-27 17:55:02.806  INFO 18176 --- [restartedMain] c.e.s.SampleBootApp3Application          : Started SampleBootApp3Application in 2.236 seconds (JVM running for 2.824)
+2023-04-27 17:55:23.676  INFO 18176 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-27 17:55:23.677  INFO 18176 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-27 17:55:23.678  INFO 18176 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-27 17:55:23.750  INFO 18176 --- [http-nio-8080-exec-1] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.motos(..)) START
+2023-04-27 17:55:23.757  INFO 18176 --- [http-nio-8080-exec-1] c.e.s.controllers.MotosController        : 検索条件：SearchForm(brandId=null, keyword=null)
+2023-04-27 17:55:23.770  INFO 18176 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-27 17:55:23.773  WARN 18176 --- [http-nio-8080-exec-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2023-04-27 17:55:24.095  INFO 18176 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-27 17:55:24.318  INFO 18176 --- [http-nio-8080-exec-1] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.motos(..)) END
+2023-04-27 17:55:27.626  INFO 18176 --- [http-nio-8080-exec-3] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.motos(..)) START
+2023-04-27 17:55:27.626  INFO 18176 --- [http-nio-8080-exec-3] c.e.s.controllers.MotosController        : 検索条件：SearchForm(brandId=null, keyword=GB)
+2023-04-27 17:55:27.641  INFO 18176 --- [http-nio-8080-exec-3] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.motos(..)) END
+2023-04-27 17:55:34.599  INFO 18176 --- [http-nio-8080-exec-2] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.motos(..)) START
+2023-04-27 17:55:34.599  INFO 18176 --- [http-nio-8080-exec-2] c.e.s.controllers.MotosController        : 検索条件：SearchForm(brandId=null, keyword=G)
+2023-04-27 17:55:34.599  INFO 18176 --- [http-nio-8080-exec-2] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.motos(..)) END
+2023-04-27 17:55:45.277  INFO 18176 --- [http-nio-8080-exec-4] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.motos(..)) START
+2023-04-27 17:55:45.278  INFO 18176 --- [http-nio-8080-exec-4] c.e.s.controllers.MotosController        : 検索条件：SearchForm(brandId=null, keyword=uuuuuuuuuuuuuuuuuuu)
+2023-04-27 17:55:45.278  INFO 18176 --- [http-nio-8080-exec-4] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.motos(..)) END
+2023-04-27 17:58:21.291  INFO 18176 --- [http-nio-8080-exec-7] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.motos(..)) START
+2023-04-27 17:58:21.292  INFO 18176 --- [http-nio-8080-exec-7] c.e.s.controllers.MotosController        : 検索条件：SearchForm(brandId=null, keyword=uuuuuuuuuuuuuuuuuuu)
+2023-04-27 17:58:21.292  INFO 18176 --- [http-nio-8080-exec-7] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.motos(..)) END
+2023-04-27 17:58:28.070  INFO 18176 --- [http-nio-8080-exec-8] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.motos(..)) START
+2023-04-27 17:58:28.071  INFO 18176 --- [http-nio-8080-exec-8] c.e.s.controllers.MotosController        : 検索条件：SearchForm(brandId=null, keyword=null)
+2023-04-27 17:58:28.077  INFO 18176 --- [http-nio-8080-exec-8] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.motos(..)) END
+2023-04-27 17:58:32.806  INFO 18176 --- [http-nio-8080-exec-9] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.motos(..)) START
+2023-04-27 17:58:32.806  INFO 18176 --- [http-nio-8080-exec-9] c.e.s.controllers.MotosController        : 検索条件：SearchForm(brandId=null, keyword=d)
+2023-04-27 17:58:32.807  INFO 18176 --- [http-nio-8080-exec-9] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.motos(..)) END
+2023-04-27 17:59:34.614  INFO 18176 --- [http-nio-8080-exec-3] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.motos(..)) START

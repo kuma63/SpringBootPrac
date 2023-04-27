@@ -6,6 +6,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 
 import com.example.sample3app.beans.Brand;
@@ -29,8 +31,12 @@ public class MotosController {
 	 * @return 遷移先
 	 */
 	@GetMapping("/motos")
-	public String motos(SearchForm searchForm, Model model) {
+	public String motos(@Validated SearchForm searchForm, BindingResult result, Model model) {
 		log.info("検索条件：{}", searchForm); //ログで入力した検索条件を受け取れてるか確認できる
+		if(result.hasErrors()) {
+			//入力チェックエラーがある場合
+			return "moto_list";
+		}
 		
 		//ブランドリストを準備
 		this.setBrands(model);
