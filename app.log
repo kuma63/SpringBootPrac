@@ -712,3 +712,171 @@ java.lang.Error: Unresolved compilation problem:
 2023-04-27 17:19:47.922  INFO 7160 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
 2023-04-27 17:19:47.923  WARN 7160 --- [http-nio-8080-exec-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
 2023-04-27 17:19:48.018  INFO 7160 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-04-27 17:19:51.029  INFO 7160 --- [http-nio-8080-exec-2] c.e.s.controllers.MotosController        : 検索条件：SearchForm(brandId=null, keyword=null)
+2023-04-27 17:23:29.178  INFO 7160 --- [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2023-04-27 17:23:29.190  INFO 7160 --- [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2023-04-27 17:23:29.242  INFO 7160 --- [restartedMain] c.e.s.SampleBootApp3Application          : Starting SampleBootApp3Application using Java 17.0.5 on DELL-MATSUGUMA with PID 7160 (C:\pleiades\2022-12\workspace\SampleBootApp3\bin\main started by y-mat in C:\pleiades\2022-12\workspace\SampleBootApp3)
+2023-04-27 17:23:29.243  INFO 7160 --- [restartedMain] c.e.s.SampleBootApp3Application          : No active profile set, falling back to 1 default profile: "default"
+2023-04-27 17:23:29.359  INFO 7160 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-27 17:23:29.360  INFO 7160 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-27 17:23:29.360  INFO 7160 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-04-27 17:23:29.372  INFO 7160 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-27 17:23:29.373  INFO 7160 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 129 ms
+2023-04-27 17:23:29.452  INFO 7160 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-27 17:23:29.463  INFO 7160 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-27 17:23:29.468  INFO 7160 --- [restartedMain] c.e.s.SampleBootApp3Application          : Started SampleBootApp3Application in 0.241 seconds (JVM running for 1347.831)
+2023-04-27 17:23:29.471  INFO 7160 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-27 17:27:13.994  INFO 7160 --- [restartedMain] c.e.s.SampleBootApp3Application          : Starting SampleBootApp3Application using Java 17.0.5 on DELL-MATSUGUMA with PID 7160 (C:\pleiades\2022-12\workspace\SampleBootApp3\bin\main started by y-mat in C:\pleiades\2022-12\workspace\SampleBootApp3)
+2023-04-27 17:27:13.995  INFO 7160 --- [restartedMain] c.e.s.SampleBootApp3Application          : No active profile set, falling back to 1 default profile: "default"
+2023-04-27 17:27:14.139  INFO 7160 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-27 17:27:14.140  INFO 7160 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-27 17:27:14.140  INFO 7160 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-04-27 17:27:14.150  INFO 7160 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-27 17:27:14.150  INFO 7160 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 153 ms
+2023-04-27 17:27:14.252  INFO 7160 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-27 17:27:14.265  INFO 7160 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-27 17:27:14.270  INFO 7160 --- [restartedMain] c.e.s.SampleBootApp3Application          : Started SampleBootApp3Application in 0.305 seconds (JVM running for 1572.633)
+2023-04-27 17:27:14.271  INFO 7160 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-27 17:29:28.829  INFO 7160 --- [restartedMain] c.e.s.SampleBootApp3Application          : Starting SampleBootApp3Application using Java 17.0.5 on DELL-MATSUGUMA with PID 7160 (C:\pleiades\2022-12\workspace\SampleBootApp3\bin\main started by y-mat in C:\pleiades\2022-12\workspace\SampleBootApp3)
+2023-04-27 17:29:28.830  INFO 7160 --- [restartedMain] c.e.s.SampleBootApp3Application          : No active profile set, falling back to 1 default profile: "default"
+2023-04-27 17:29:28.956  INFO 7160 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-27 17:29:28.957  INFO 7160 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-27 17:29:28.957  INFO 7160 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-04-27 17:29:28.966  INFO 7160 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-27 17:29:28.966  INFO 7160 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 135 ms
+2023-04-27 17:29:28.971  WARN 7160 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'eventLogFilter': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.example.sample3app.commons.EventLogFilter] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7c90d022]
+2023-04-27 17:29:28.972  INFO 7160 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-27 17:29:28.977  INFO 7160 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-27 17:29:28.993 ERROR 7160 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'eventLogFilter': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.example.sample3app.commons.EventLogFilter] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7c90d022]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.21.jar:5.3.21]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.21.jar:5.3.21]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.1.jar:2.7.1]
+	at com.example.sample3app.SampleBootApp3Application.main(SampleBootApp3Application.java:10) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.1.jar:2.7.1]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.sample3app.commons.EventLogFilter] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7c90d022]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485) ~[spring-core-5.3.21.jar:5.3.21]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321) ~[spring-core-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267) ~[spring-beans-5.3.21.jar:5.3.21]
+	... 23 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/aspectj/lang/JoinPoint
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:467) ~[spring-core-5.3.21.jar:5.3.21]
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.JoinPoint
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.7.1.jar:2.7.1]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	... 29 common frames omitted
+
+2023-04-27 17:31:31.467  INFO 7160 --- [restartedMain] c.e.s.SampleBootApp3Application          : Starting SampleBootApp3Application using Java 17.0.5 on DELL-MATSUGUMA with PID 7160 (C:\pleiades\2022-12\workspace\SampleBootApp3\bin\main started by y-mat in C:\pleiades\2022-12\workspace\SampleBootApp3)
+2023-04-27 17:31:31.467  INFO 7160 --- [restartedMain] c.e.s.SampleBootApp3Application          : No active profile set, falling back to 1 default profile: "default"
+2023-04-27 17:31:31.584  INFO 7160 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-27 17:31:31.585  INFO 7160 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-27 17:31:31.585  INFO 7160 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-04-27 17:31:31.598  INFO 7160 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-04-27 17:31:31.598  INFO 7160 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 130 ms
+2023-04-27 17:31:31.604  WARN 7160 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'eventLogFilter': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.example.sample3app.commons.EventLogFilter] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3c5750e6]
+2023-04-27 17:31:31.604  INFO 7160 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-27 17:31:31.608  INFO 7160 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-27 17:31:31.611 ERROR 7160 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'eventLogFilter': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.example.sample3app.commons.EventLogFilter] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3c5750e6]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.21.jar:5.3.21]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.21.jar:5.3.21]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.1.jar:2.7.1]
+	at com.example.sample3app.SampleBootApp3Application.main(SampleBootApp3Application.java:10) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.1.jar:2.7.1]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.sample3app.commons.EventLogFilter] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3c5750e6]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485) ~[spring-core-5.3.21.jar:5.3.21]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321) ~[spring-core-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267) ~[spring-beans-5.3.21.jar:5.3.21]
+	... 23 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/aspectj/lang/JoinPoint
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:467) ~[spring-core-5.3.21.jar:5.3.21]
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.JoinPoint
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.7.1.jar:2.7.1]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	... 29 common frames omitted
+
+2023-04-27 17:32:20.762  INFO 15212 --- [restartedMain] c.e.s.SampleBootApp3Application          : Starting SampleBootApp3Application using Java 17.0.5 on DELL-MATSUGUMA with PID 15212 (C:\pleiades\2022-12\workspace\SampleBootApp3\bin\main started by y-mat in C:\pleiades\2022-12\workspace\SampleBootApp3)
+2023-04-27 17:32:20.764  INFO 15212 --- [restartedMain] c.e.s.SampleBootApp3Application          : No active profile set, falling back to 1 default profile: "default"
+2023-04-27 17:32:20.808  INFO 15212 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\y-mat\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc11\23.2.0.0\a19cc23a15caea09f4883e938907129354239e75\ojdbc11-23.2.0.0.jar referenced one or more files that do not exist: file:/C:/Users/y-mat/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc11/23.2.0.0/a19cc23a15caea09f4883e938907129354239e75/oraclepki.jar
+2023-04-27 17:32:20.809  INFO 15212 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-27 17:32:20.809  INFO 15212 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-27 17:32:21.801  INFO 15212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-27 17:32:21.810  INFO 15212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-27 17:32:21.810  INFO 15212 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-04-27 17:32:21.860  INFO 15212 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-27 17:32:21.860  INFO 15212 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1051 ms
+2023-04-27 17:32:22.619  INFO 15212 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-27 17:32:22.648  INFO 15212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-27 17:32:22.660  INFO 15212 --- [restartedMain] c.e.s.SampleBootApp3Application          : Started SampleBootApp3Application in 2.22 seconds (JVM running for 2.826)
+2023-04-27 17:32:38.426  INFO 15212 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-27 17:32:38.427  INFO 15212 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-27 17:32:38.428  INFO 15212 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-27 17:32:38.469  INFO 15212 --- [http-nio-8080-exec-1] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.motos(..)) START
+2023-04-27 17:32:38.474  INFO 15212 --- [http-nio-8080-exec-1] c.e.s.controllers.MotosController        : 検索条件：SearchForm(brandId=null, keyword=null)
+2023-04-27 17:32:38.493  INFO 15212 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-27 17:32:38.497  WARN 15212 --- [http-nio-8080-exec-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2023-04-27 17:32:38.786  INFO 15212 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-27 17:32:39.024  INFO 15212 --- [http-nio-8080-exec-1] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.motos(..)) END
+2023-04-27 17:33:10.303  INFO 15212 --- [http-nio-8080-exec-2] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.motos(..)) START
