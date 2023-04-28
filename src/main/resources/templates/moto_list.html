@@ -9,14 +9,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
-	
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap" rel="stylesheet">
+    
     <title th:text="#{site.title}"></title>
     
     <style>
 		body{
-			font-family: 'Hachi Maru Pop', cursive;
+			font-family: 'M PLUS 1p', sans-serif;
 		}
 	</style>
   </head>
@@ -30,7 +30,7 @@
     <div class="container">
 	  <form th:action="@{/motos}" method="get">
 		  <div class="row justify-content-end">
-			  <div class="col-4">
+			  <div class="col-3">
 				  <div th:text="${#temporals.format(datetime, 'yyyy/MM/dd HH:mm:ss')}"></div>
 			  </div>
 		  </div>
