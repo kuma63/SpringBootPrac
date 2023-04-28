@@ -103,4 +103,27 @@ public class MotosService {
 		return cnt;
 		
 	}
+    
+    /**
+     * バイク情報を削除する。
+     * @param moto バイク情報
+     * @return 削除件数
+     */
+    @Transactional
+    public int delete(Motorcycle moto) {
+        int cnt = mapper.delete(moto);
+        // 削除できなかった場合、更新されたか削除されたため楽観的排他エラーとする
+        if (cnt == 0) {
+            throw new OptimisticLockingFailureException(
+                messageSource.getMessage("error.OptimisticLockingFailure",
+                null, Locale.JAPANESE));
+        }
+        // 2件以上更新は想定外（SQLの不備の可能性）
+        if (cnt > 1) {
+            throw new RuntimeException(
+                messageSource.getMessage("error.Runtime",
+                new String[] { "2件以上削除されました。" }, Locale.JAPANESE));
+        }
+        return cnt;
+    }
 }

@@ -2,6 +2,7 @@ package com.example.sample3app.mappers;
 
 import java.util.List;
 
+import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Update;
 
@@ -44,4 +45,12 @@ public interface MotorcycleMapper {
      * @return 登録件数
      */
     public int insert(Motorcycle moto);
+    
+    /**
+     * バイク情報を削除する。
+     * @param moto バイク情報
+     * @return 削除件数
+     */
+    @Delete("DELETE FROM m_motorcycle WHERE moto_no = #{motoNo} AND version = #{version} ")
+    public int delete(Motorcycle moto);
 }
