@@ -30,6 +30,11 @@
     <div class="container">
 	  <form method="post" th:object="${motoForm}" th:action="@{/motos/save}">
 		  <div class="row">
+			  <div class="col">
+				  <div class="alert alert-danger" th:each="err : ${#fields.errors('*')}" th:text="${err}"></div>
+			  </div>
+		  </div>
+		  <div class="row">
 			<div class="col">
 				<label for="motoNo" class="form-label">番号</label>
 				<span th:text="*{motoNo}"></span>

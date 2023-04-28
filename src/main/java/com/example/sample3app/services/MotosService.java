@@ -1,8 +1,10 @@
 package com.example.sample3app.services;
 
 import java.util.List;
+import java.util.Locale;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.MessageSource;
 import org.springframework.dao.OptimisticLockingFailureException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -15,6 +17,11 @@ import com.example.sample3app.mappers.MotorcycleMapper;
 
 @Service
 public class MotosService {
+	
+	//messageSourceを使ってメッセージを取り出す
+	@Autowired
+	MessageSource messageSource;
+	
 	@Autowired
     MotorcycleMapper mapper;
 	
@@ -44,12 +51,16 @@ public class MotosService {
 	public int save(Motorcycle moto) {
 		int cnt = mapper.update(moto);
 		if(cnt == 0) {
-			throw new OptimisticLockingFailureException("楽観的排他エラー");
+			throw new OptimisticLockingFailureException(
+					messageSource.getMessage("error.optimisticLockingFailure", 
+					null, Locale.JAPANESE));
 		}
 		
 		// 2件以上更新は想定外（SQLの不備の可能性）
 	    if (cnt > 1) {
-	        throw new RuntimeException("2件以上更新されました。");
+	        throw new RuntimeException(
+	        		messageSource.getMessage("error.runtimeexception", 
+	        		new String[] { "2件以上更新されました。" }, Locale.JAPANESE));
 	    }
 		return cnt;
 		
