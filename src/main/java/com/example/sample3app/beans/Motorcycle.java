@@ -20,9 +20,8 @@ public class Motorcycle {
 	private String cooling;
 	private Integer price;
 	private String comments;
-	private Brand brand;
 	private String brandId;
 	private Integer version;
-	private LocalDateTime intDt;
+	private String insDt;
 	private LocalDateTime updDt;
 }

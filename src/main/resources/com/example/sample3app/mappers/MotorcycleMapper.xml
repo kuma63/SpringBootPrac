@@ -4,10 +4,7 @@
   "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.example.sample3app.mappers.MotorcycleMapper">
   <resultMap id="motorcycleMap" type="com.example.sample3app.beans.Motorcycle" autoMapping="true">
-    <association property="brand" javaType="com.example.sample3app.beans.Brand" autoMapping="true">
-    	<result column="m_motorcycle.brand_id" property="brandId"></result>
-    	<result column="m_brand.brand_name" property="brandName"></result>
-    </association>
+    
   </resultMap>
   <select id="selectByCondition" resultMap="motorcycleMap">
     SELECT
@@ -55,4 +52,40 @@
     ORDER BY
         moto_no
   </select>
+  <select id="selectNewMotoNo" resultType="Integer">
+    SELECT
+        MAX(m_motorcycle.moto_no) + 1 
+    FROM
+        m_motorcycle 
+    
+        
+  </select>
+  <insert id="insert" parameterType="com.example.sample3app.beans.Motorcycle">
+  	INSERT INTO m_motorcycle
+  	(
+  		moto_no
+        , moto_name
+        , seat_height
+        , cylinder
+        , cooling
+        , price
+        , comments
+        , brand_id
+        , version
+        , ins_dt
+        
+  	)
+  	VALUES(
+  		#{motoNo}
+	    , #{motoName}
+	    , #{seatHeight}
+	    , #{cylinder}
+	    , #{cooling}
+	    , #{price}
+	    , #{comments}
+	    , #{brandId}
+	    , 1
+	    , SYSDATE
+  	)
+  </insert>
 </mapper>

@@ -163,10 +163,10 @@ public class MotosServiceTest {
 		assertThat(moto.getSeatHeight()).isEqualTo(800);
 		assertThat(moto.getCylinder()).isEqualTo(1);
 		assertThat(moto.getCooling()).isEqualTo("空冷");
-		assertThat(moto.getPrice()).isEqualTo(550000);
+		assertThat(moto.getPrice()).isEqualTo(570000);
 		assertThat(moto.getComments()).isEqualTo("エンジンのトコトコ音がいい。");
 		assertThat(moto.getBrandId()).isEqualTo("01");
-		assertThat(moto.getVersion()).isEqualTo(1);
+		assertThat(moto.getVersion()).isEqualTo(15);
 	}
 
 	@DisplayName("バイク情報更新")
@@ -185,4 +185,35 @@ public class MotosServiceTest {
 		
 		
 	}
+	
+//	@DisplayName("バイク情報登録")
+//	@Test
+//	@Transactional
+//	@Rollback
+//	void test012() {
+//		Motorcycle before = new Motorcycle();
+//	    before.setMotoName("motomoto");
+//	    before.setSeatHeight(10);
+//	    before.setCylinder(9);
+//	    before.setCooling("必殺技");
+//	    before.setPrice(1000);
+//	    before.setComments("できたぜ");
+//	    before.setBrandId("01");
+//
+//	    service.save(before); // 登録（保存）
+//
+//	    Motorcycle after = service.getMotos(4); // 変更後のバイク情報取得
+//	    assertThat(after.getMotoNo()).isEqualTo(4);
+//	    assertThat(after.getMotoName()).isEqualTo("motomoto");
+//	    assertThat(after.getSeatHeight()).isEqualTo(10);
+//	    assertThat(after.getCylinder()).isEqualTo(9);
+//	    assertThat(after.getCooling()).isEqualTo("必殺技");
+//	    assertThat(after.getPrice()).isEqualTo(1000);
+//	    assertThat(after.getComments()).isEqualTo("できたぜ");
+//	    assertThat(after.getBrandId()).isEqualTo("01");
+//	    assertThat(after.getVersion()).isEqualTo(1);
+////	    assertThat(after.getInsDt()).isEqualTo("2023/4/28 16:29:45");
+//	    assertThat(after.getUpdDt()).isNull();
+//		
+//	}
 }
