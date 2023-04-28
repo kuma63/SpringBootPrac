@@ -66,7 +66,7 @@
 			  <thead>
 			    <tr>
 			      <th scope="col" th:text="#{label.motoNo}" class="text-center"></th>
-<!--			      <th scope="col">メーカー</th>-->
+			      <th scope="col" class="text-center">メーカー番号</th>
 			      <th scope="col" th:text="#{label.motoName}" class="text-center"></th>
 			      <th scope="col" th:text="#{label.engine}" class="text-center"></th>
 			      <th scope="col" th:text="#{label.price}" class="text-center"></th>
@@ -76,7 +76,7 @@
 			  <tbody>
 			    <tr th:each="moto : ${motos}" th:object="${moto}">
 			      <th scope="row" th:text="*{motoNo}"></th>
-<!--			      <td th:text="*{brand.brandName}"></td>-->
+			      <td th:text="*{brandId}"></td>
 			      <td><a th:href="@{/motos/} + *{motoNo}"  th:text="*{motoName}"></a></td>
 			      <td th:text="*{cooling} + *{cylinder}"></td>
 			      <td th:text="*{#numbers.formatInteger(price, 3, 'COMMA')}" class="text-end"></td>
