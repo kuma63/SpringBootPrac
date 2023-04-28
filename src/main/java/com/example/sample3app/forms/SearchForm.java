@@ -1,4 +1,4 @@
-package com.example.sample3app.beans;
+package com.example.sample3app.forms;
 
 import javax.validation.constraints.Size;
 

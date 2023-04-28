@@ -31,7 +31,7 @@
 	  <form method="post" th:object="${motoForm}" th:action="@{/motos/save}">
 		  <div class="row">
 			  <div class="col">
-				  <div class="alert alert-danger" th:each="err : ${#fields.errors('*')}" th:text="${err}"></div>
+				  <div class="alert alert-danger" th:each="err : ${#fields.errors('global')}" th:text="${err}"></div>
 			  </div>
 		  </div>
 		  <div class="row" th:if="${motoForm.motoNo}">
@@ -44,7 +44,7 @@
 		  </div>
 		  <div class="row">
 			  <div class="col">
-				  <label for="brand" class="form-label">メーカー</label>
+				  <label for="brand" class="form-label">メーカー</label><span class="badge bg-danger">必須</span>
 				  <select th:field="*{brandId}" class="form-select" id="brand" aria-label="Default select example">
 				  	<option value=""></option>
 					<option th:each="brand : ${brands}" th:text="${brand.brandName}" th:value="${brand.brandId}"></option>
@@ -58,12 +58,14 @@
 <!--				  </select>-->
 <!--			  </div>-->
 			  <div class="col">
-				  <label for="motoName" class="form-label">車名</label>
-				  <input th:field="*{motoName}" type="text" class="form-control" id="motoName" placeholder="">
+				  <label for="motoName" class="form-label">車名</label><span class="badge bg-danger">必須</span>
+				  <input th:field="*{motoName}" type="text" class="form-control" id="motoName" placeholder="" th:errorclass="is-invalid">
+                  <div th:errors="${motoForm.motoName}" class="invalid-feedback"></div>
 			  </div>
 			  <div class="col">
 				  <label for="seatHeight" class="form-label">シート高</label>
-				  <input th:field="*{seatHeight}" type="number" class="form-control" id="seatHeight" placeholder="">
+				  <input th:field="*{seatHeight}" type="number" class="form-control" id="seatHeight" placeholder="" th:errorclass="is-invalid">
+                  <div th:errors="*{seatHeight}" class="invalid-feedback"></div>
 			  </div>
 		  </div>
 		  <div class="row">

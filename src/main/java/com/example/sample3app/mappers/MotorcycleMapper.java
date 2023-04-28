@@ -7,7 +7,7 @@ import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Update;
 
 import com.example.sample3app.beans.Motorcycle;
-import com.example.sample3app.beans.SearchForm;
+import com.example.sample3app.forms.SearchForm;
 
 
 @Mapper

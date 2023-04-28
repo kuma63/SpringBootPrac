@@ -4164,3 +4164,224 @@ java.sql.SQLException: ORA-17004: 列の型が無効です: 1111
 2023-04-28 18:21:56.793  INFO 22844 --- [http-nio-8080-exec-2] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.motos(..)) START
 2023-04-28 18:21:56.793  INFO 22844 --- [http-nio-8080-exec-2] c.e.s.controllers.MotosController        : 検索条件：SearchForm(brandId=null, keyword=null)
 2023-04-28 18:21:56.797  INFO 22844 --- [http-nio-8080-exec-2] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.motos(..)) END
+2023-04-28 18:24:37.172  INFO 22844 --- [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-04-28 18:24:37.189  INFO 22844 --- [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-04-28 18:24:37.249  INFO 22844 --- [restartedMain] c.e.s.SampleBootApp3Application          : Starting SampleBootApp3Application using Java 17.0.5 on DELL-MATSUGUMA with PID 22844 (C:\pleiades\2022-12\workspace\SampleBootApp3\bin\main started by y-mat in C:\pleiades\2022-12\workspace\SampleBootApp3)
+2023-04-28 18:24:37.249  INFO 22844 --- [restartedMain] c.e.s.SampleBootApp3Application          : No active profile set, falling back to 1 default profile: "default"
+2023-04-28 18:24:37.451  INFO 22844 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28 18:24:37.451  INFO 22844 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28 18:24:37.451  INFO 22844 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-04-28 18:24:37.464  INFO 22844 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28 18:24:37.464  INFO 22844 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 213 ms
+2023-04-28 18:24:37.764  INFO 22844 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-28 18:24:37.774  INFO 22844 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-28 18:24:37.780  INFO 22844 --- [restartedMain] c.e.s.SampleBootApp3Application          : Started SampleBootApp3Application in 0.551 seconds (JVM running for 2806.669)
+2023-04-28 18:24:37.781  INFO 22844 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-28 18:25:23.704  INFO 22844 --- [restartedMain] c.e.s.SampleBootApp3Application          : Starting SampleBootApp3Application using Java 17.0.5 on DELL-MATSUGUMA with PID 22844 (C:\pleiades\2022-12\workspace\SampleBootApp3\bin\main started by y-mat in C:\pleiades\2022-12\workspace\SampleBootApp3)
+2023-04-28 18:25:23.705  INFO 22844 --- [restartedMain] c.e.s.SampleBootApp3Application          : No active profile set, falling back to 1 default profile: "default"
+2023-04-28 18:25:23.854  INFO 22844 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28 18:25:23.854  INFO 22844 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28 18:25:23.856  INFO 22844 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-04-28 18:25:23.866  INFO 22844 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28 18:25:23.867  INFO 22844 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 160 ms
+2023-04-28 18:25:24.104  INFO 22844 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-28 18:25:24.116  INFO 22844 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-28 18:25:24.120  INFO 22844 --- [restartedMain] c.e.s.SampleBootApp3Application          : Started SampleBootApp3Application in 0.431 seconds (JVM running for 2853.01)
+2023-04-28 18:25:24.121  INFO 22844 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-28 18:28:32.215  INFO 22844 --- [restartedMain] c.e.s.SampleBootApp3Application          : Starting SampleBootApp3Application using Java 17.0.5 on DELL-MATSUGUMA with PID 22844 (C:\pleiades\2022-12\workspace\SampleBootApp3\bin\main started by y-mat in C:\pleiades\2022-12\workspace\SampleBootApp3)
+2023-04-28 18:28:32.215  INFO 22844 --- [restartedMain] c.e.s.SampleBootApp3Application          : No active profile set, falling back to 1 default profile: "default"
+2023-04-28 18:28:32.381  INFO 22844 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28 18:28:32.381  INFO 22844 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28 18:28:32.381  INFO 22844 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-04-28 18:28:32.393  INFO 22844 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28 18:28:32.394  INFO 22844 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 178 ms
+2023-04-28 18:28:32.652  INFO 22844 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-28 18:28:32.661  INFO 22844 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-28 18:28:32.664  INFO 22844 --- [restartedMain] c.e.s.SampleBootApp3Application          : Started SampleBootApp3Application in 0.466 seconds (JVM running for 3041.554)
+2023-04-28 18:28:32.665  INFO 22844 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-28 18:34:58.417  INFO 22844 --- [restartedMain] c.e.s.SampleBootApp3Application          : Starting SampleBootApp3Application using Java 17.0.5 on DELL-MATSUGUMA with PID 22844 (C:\pleiades\2022-12\workspace\SampleBootApp3\bin\main started by y-mat in C:\pleiades\2022-12\workspace\SampleBootApp3)
+2023-04-28 18:34:58.417  INFO 22844 --- [restartedMain] c.e.s.SampleBootApp3Application          : No active profile set, falling back to 1 default profile: "default"
+2023-04-28 18:34:58.600  INFO 22844 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28 18:34:58.601  INFO 22844 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28 18:34:58.601  INFO 22844 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-04-28 18:34:58.613  INFO 22844 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28 18:34:58.613  INFO 22844 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 194 ms
+2023-04-28 18:34:58.894  INFO 22844 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-28 18:34:58.904  INFO 22844 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-28 18:34:58.907  INFO 22844 --- [restartedMain] c.e.s.SampleBootApp3Application          : Started SampleBootApp3Application in 0.513 seconds (JVM running for 3427.796)
+2023-04-28 18:34:58.908  INFO 22844 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-28 18:35:08.319  INFO 22844 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-28 18:35:08.321  INFO 22844 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-28 18:35:08.321  INFO 22844 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-04-28 18:35:08.327  INFO 22844 --- [http-nio-8080-exec-1] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.motos(..)) START
+2023-04-28 18:35:08.331  INFO 22844 --- [http-nio-8080-exec-1] c.e.s.controllers.MotosController        : 検索条件：SearchForm(brandId=null, keyword=null)
+2023-04-28 18:35:08.335  INFO 22844 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-04-28 18:35:08.335  WARN 22844 --- [http-nio-8080-exec-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2023-04-28 18:35:08.394  INFO 22844 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-04-28 18:35:08.398  INFO 22844 --- [http-nio-8080-exec-1] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.motos(..)) END
+2023-04-28 18:35:09.804  INFO 22844 --- [http-nio-8080-exec-2] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.initNew(..)) START
+2023-04-28 18:35:09.807  INFO 22844 --- [http-nio-8080-exec-2] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.initNew(..)) END
+2023-04-28 18:35:25.789  INFO 22844 --- [http-nio-8080-exec-3] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.save(..)) START
+2023-04-28 18:35:25.789  INFO 22844 --- [http-nio-8080-exec-3] c.e.s.controllers.MotosController        : motoForm:MotoForm(motoNo=null, motoName=null, seatHeight=null, cylinder=null, cooling=null, price=null, comments=null, brandId=null, version=null)
+2023-04-28 18:35:25.799  INFO 22844 --- [http-nio-8080-exec-3] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.save(..)) END
+2023-04-28 18:35:25.806 ERROR 22844 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.type.TypeException: Could not set parameters for mapping: ParameterMapping{property='motoName', mode=IN, javaType=class java.lang.String, jdbcType=null, numericScale=null, resultMapId='null', jdbcTypeName='null', expression='null'}. Cause: org.apache.ibatis.type.TypeException: Error setting null for parameter #2 with JdbcType OTHER . Try setting a different JdbcType for this parameter or a different jdbcTypeForNull configuration property. Cause: java.sql.SQLException: ORA-17004: 列の型が無効です: 1111] with root cause
+
+java.sql.SQLException: ORA-17004: 列の型が無効です: 1111
+	at oracle.jdbc.driver.OracleStatement.getInternalType(OracleStatement.java:4994) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.OraclePreparedStatement.setNullCritical(OraclePreparedStatement.java:4612) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.OraclePreparedStatement.setNull(OraclePreparedStatement.java:4595) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.setNull(OraclePreparedStatementWrapper.java:942) ~[ojdbc11-23.2.0.0.jar:23.2.0.0.0]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.setNull(HikariProxyPreparedStatement.java) ~[HikariCP-4.0.3.jar:na]
+	at org.apache.ibatis.type.BaseTypeHandler.setParameter(BaseTypeHandler.java:65) ~[mybatis-3.5.9.jar:3.5.9]
+	at org.apache.ibatis.scripting.defaults.DefaultParameterHandler.setParameters(DefaultParameterHandler.java:87) ~[mybatis-3.5.9.jar:3.5.9]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.parameterize(PreparedStatementHandler.java:94) ~[mybatis-3.5.9.jar:3.5.9]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.parameterize(RoutingStatementHandler.java:64) ~[mybatis-3.5.9.jar:3.5.9]
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:88) ~[mybatis-3.5.9.jar:3.5.9]
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:49) ~[mybatis-3.5.9.jar:3.5.9]
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117) ~[mybatis-3.5.9.jar:3.5.9]
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76) ~[mybatis-3.5.9.jar:3.5.9]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194) ~[mybatis-3.5.9.jar:3.5.9]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:181) ~[mybatis-3.5.9.jar:3.5.9]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427) ~[mybatis-spring-2.0.7.jar:2.0.7]
+	at jdk.proxy2/jdk.proxy2.$Proxy73.insert(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272) ~[mybatis-spring-2.0.7.jar:2.0.7]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62) ~[mybatis-3.5.9.jar:3.5.9]
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145) ~[mybatis-3.5.9.jar:3.5.9]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86) ~[mybatis-3.5.9.jar:3.5.9]
+	at jdk.proxy11/jdk.proxy11.$Proxy121.insert(Unknown Source) ~[na:na]
+	at com.example.sample3app.services.MotosService.add(MotosService.java:95) ~[main/:na]
+	at com.example.sample3app.services.MotosService.save(MotosService.java:53) ~[main/:na]
+	at com.example.sample3app.services.MotosService$$FastClassBySpringCGLIB$$b74c9f2a.invoke(<generated>) ~[main/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.21.jar:5.3.21]
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386) ~[spring-aop-5.3.21.jar:5.3.21]
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85) ~[spring-aop-5.3.21.jar:5.3.21]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704) ~[spring-aop-5.3.21.jar:5.3.21]
+	at com.example.sample3app.services.MotosService$$EnhancerBySpringCGLIB$$4a459cf.save(<generated>) ~[main/:na]
+	at com.example.sample3app.controllers.MotosController.save(MotosController.java:127) ~[main/:na]
+	at com.example.sample3app.controllers.MotosController$$FastClassBySpringCGLIB$$9bda06d6.invoke(<generated>) ~[main/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.21.jar:5.3.21]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.21.jar:5.3.21]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.21.jar:5.3.21]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.21.jar:5.3.21]
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:49) ~[spring-aop-5.3.21.jar:5.3.21]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.21.jar:5.3.21]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.21.jar:5.3.21]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-5.3.21.jar:5.3.21]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.21.jar:5.3.21]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.21.jar:5.3.21]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.21.jar:5.3.21]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.21.jar:5.3.21]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.21.jar:5.3.21]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708) ~[spring-aop-5.3.21.jar:5.3.21]
+	at com.example.sample3app.controllers.MotosController$$EnhancerBySpringCGLIB$$ae7f3137.save(<generated>) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.64.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.21.jar:5.3.21]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.64.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.21.jar:5.3.21]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1787) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.64.jar:9.0.64]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-04-28 18:36:55.407  INFO 22844 --- [Thread-33] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2023-04-28 18:36:55.422  INFO 22844 --- [Thread-33] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2023-04-28 18:36:55.481  INFO 22844 --- [restartedMain] c.e.s.SampleBootApp3Application          : Starting SampleBootApp3Application using Java 17.0.5 on DELL-MATSUGUMA with PID 22844 (C:\pleiades\2022-12\workspace\SampleBootApp3\bin\main started by y-mat in C:\pleiades\2022-12\workspace\SampleBootApp3)
+2023-04-28 18:36:55.481  INFO 22844 --- [restartedMain] c.e.s.SampleBootApp3Application          : No active profile set, falling back to 1 default profile: "default"
+2023-04-28 18:36:55.645  INFO 22844 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28 18:36:55.646  INFO 22844 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28 18:36:55.646  INFO 22844 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-04-28 18:36:55.657  INFO 22844 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28 18:36:55.657  INFO 22844 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 174 ms
+2023-04-28 18:36:55.898  INFO 22844 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-28 18:36:55.905  INFO 22844 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-28 18:36:55.909  INFO 22844 --- [restartedMain] c.e.s.SampleBootApp3Application          : Started SampleBootApp3Application in 0.445 seconds (JVM running for 3544.798)
+2023-04-28 18:36:55.910  INFO 22844 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-28 18:37:03.205  INFO 22844 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-28 18:37:03.205  INFO 22844 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-28 18:37:03.208  INFO 22844 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-04-28 18:37:03.239  INFO 22844 --- [http-nio-8080-exec-2] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.save(..)) START
+2023-04-28 18:37:03.241  INFO 22844 --- [http-nio-8080-exec-2] c.e.s.controllers.MotosController        : motoForm:MotoForm(motoNo=null, motoName=null, seatHeight=null, cylinder=null, cooling=null, price=null, comments=null, brandId=null, version=null)
+2023-04-28 18:37:03.242  INFO 22844 --- [http-nio-8080-exec-2] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.save(..)) END
+2023-04-28 18:38:33.321  INFO 22844 --- [http-nio-8080-exec-4] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.save(..)) START
+2023-04-28 18:38:33.321  INFO 22844 --- [http-nio-8080-exec-4] c.e.s.controllers.MotosController        : motoForm:MotoForm(motoNo=null, motoName=null, seatHeight=null, cylinder=null, cooling=null, price=null, comments=null, brandId=null, version=null)
+2023-04-28 18:38:33.321  INFO 22844 --- [http-nio-8080-exec-4] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.save(..)) END
+2023-04-28 18:39:16.218  INFO 22844 --- [restartedMain] c.e.s.SampleBootApp3Application          : Starting SampleBootApp3Application using Java 17.0.5 on DELL-MATSUGUMA with PID 22844 (C:\pleiades\2022-12\workspace\SampleBootApp3\bin\main started by y-mat in C:\pleiades\2022-12\workspace\SampleBootApp3)
+2023-04-28 18:39:16.218  INFO 22844 --- [restartedMain] c.e.s.SampleBootApp3Application          : No active profile set, falling back to 1 default profile: "default"
+2023-04-28 18:39:16.405  INFO 22844 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28 18:39:16.405  INFO 22844 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28 18:39:16.405  INFO 22844 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-04-28 18:39:16.415  INFO 22844 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28 18:39:16.415  INFO 22844 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 195 ms
+2023-04-28 18:39:16.689  INFO 22844 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-28 18:39:16.698  INFO 22844 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-28 18:39:16.702  INFO 22844 --- [restartedMain] c.e.s.SampleBootApp3Application          : Started SampleBootApp3Application in 0.5 seconds (JVM running for 3685.591)
+2023-04-28 18:39:16.703  INFO 22844 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-28 18:39:45.450  INFO 22844 --- [restartedMain] c.e.s.SampleBootApp3Application          : Starting SampleBootApp3Application using Java 17.0.5 on DELL-MATSUGUMA with PID 22844 (C:\pleiades\2022-12\workspace\SampleBootApp3\bin\main started by y-mat in C:\pleiades\2022-12\workspace\SampleBootApp3)
+2023-04-28 18:39:45.450  INFO 22844 --- [restartedMain] c.e.s.SampleBootApp3Application          : No active profile set, falling back to 1 default profile: "default"
+2023-04-28 18:39:45.633  INFO 22844 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-04-28 18:39:45.634  INFO 22844 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-28 18:39:45.634  INFO 22844 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2023-04-28 18:39:45.651  INFO 22844 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-28 18:39:45.651  INFO 22844 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 198 ms
+2023-04-28 18:39:45.962  INFO 22844 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-28 18:39:45.972  INFO 22844 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-28 18:39:45.977  INFO 22844 --- [restartedMain] c.e.s.SampleBootApp3Application          : Started SampleBootApp3Application in 0.543 seconds (JVM running for 3714.866)
+2023-04-28 18:39:45.978  INFO 22844 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-28 18:39:54.845  INFO 22844 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-28 18:39:54.846  INFO 22844 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-28 18:39:54.847  INFO 22844 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-28 18:39:54.880  INFO 22844 --- [http-nio-8080-exec-1] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.save(..)) START
+2023-04-28 18:39:54.883  INFO 22844 --- [http-nio-8080-exec-1] c.e.s.controllers.MotosController        : motoForm:MotoForm(motoNo=null, motoName=null, seatHeight=null, cylinder=null, cooling=null, price=null, comments=null, brandId=null, version=null)
+2023-04-28 18:39:54.883  INFO 22844 --- [http-nio-8080-exec-1] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.save(..)) END
+2023-04-28 18:41:30.832  INFO 22844 --- [http-nio-8080-exec-4] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.save(..)) START
+2023-04-28 18:41:30.832  INFO 22844 --- [http-nio-8080-exec-4] c.e.s.controllers.MotosController        : motoForm:MotoForm(motoNo=null, motoName=null, seatHeight=null, cylinder=null, cooling=null, price=null, comments=null, brandId=null, version=null)
+2023-04-28 18:41:30.832  INFO 22844 --- [http-nio-8080-exec-4] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.save(..)) END
+2023-04-28 18:42:15.867  INFO 22844 --- [http-nio-8080-exec-5] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.save(..)) START
+2023-04-28 18:42:15.867  INFO 22844 --- [http-nio-8080-exec-5] c.e.s.controllers.MotosController        : motoForm:MotoForm(motoNo=null, motoName=null, seatHeight=null, cylinder=null, cooling=null, price=null, comments=null, brandId=null, version=null)
+2023-04-28 18:42:15.867  INFO 22844 --- [http-nio-8080-exec-5] c.e.sample3app.commons.EventLogFilter    : execution(MotosController.save(..)) END

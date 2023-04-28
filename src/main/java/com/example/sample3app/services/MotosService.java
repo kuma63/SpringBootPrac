@@ -11,7 +11,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.example.sample3app.beans.Brand;
 import com.example.sample3app.beans.Motorcycle;
-import com.example.sample3app.beans.SearchForm;
+import com.example.sample3app.forms.SearchForm;
 import com.example.sample3app.mappers.BrandMapper;
 import com.example.sample3app.mappers.MotorcycleMapper;
 

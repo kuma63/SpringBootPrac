@@ -14,7 +14,7 @@ import org.springframework.test.annotation.Rollback;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.example.sample3app.beans.Motorcycle;
-import com.example.sample3app.beans.SearchForm;
+import com.example.sample3app.forms.SearchForm;
 
 @SpringBootTest
 public class MotosServiceTest {

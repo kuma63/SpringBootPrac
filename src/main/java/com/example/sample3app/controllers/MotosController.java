@@ -19,8 +19,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 import com.example.sample3app.beans.Brand;
 import com.example.sample3app.beans.Motorcycle;
-import com.example.sample3app.beans.SearchForm;
 import com.example.sample3app.forms.MotoForm;
+import com.example.sample3app.forms.SearchForm;
 import com.example.sample3app.services.MotosService;
 
 import lombok.extern.slf4j.Slf4j;
@@ -113,9 +113,13 @@ public class MotosController {
 	}
 	
 	@PostMapping("/motos/save")
-	public String save(@ModelAttribute MotoForm motoForm, BindingResult result, Model model) {
+	public String save(@Validated MotoForm motoForm, BindingResult result, Model model) {
 		try {
 			log.info("motoForm:{}", motoForm);
+			if(result.hasErrors()) {
+				//入力チェックエラーがある場合
+				return "moto";
+			}
 			Motorcycle moto = new Motorcycle();
 			//入力内容を詰め替える
 			BeanUtils.copyProperties(motoForm, moto);
