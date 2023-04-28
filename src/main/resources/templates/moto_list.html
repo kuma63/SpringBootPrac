@@ -27,6 +27,7 @@
 			<span class="navbar-brand mb-0 h1">バイク管理</span>
 		</div>
 	</nav>
+	<div th:text="${#temporals.format(datetime, 'yyyy/MM/dd HH:mm:ss')}"></div>
     <div class="container">
 	  <form th:action="@{/motos}" method="get">
 		  <div class="row">
@@ -74,7 +75,7 @@
 <!--			      <td th:text="*{brand.brandName}"></td>-->
 			      <td th:text="*{motoName}"></td>
 			      <td th:text="*{cooling} + *{cylinder}"></td>
-			      <td th:text="*{price}"></td>
+			      <td th:text="*{#numbers.formatInteger(price, 3, 'COMMA')}"></td>
 			      <td th:text="*{comments}"></td>
 			    </tr>
 			  </tbody>
