@@ -3,6 +3,7 @@ package com.example.sample3app.services;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.OptimisticLockingFailureException;
 import org.springframework.stereotype.Service;
 
 import com.example.sample3app.beans.Brand;
@@ -32,9 +33,18 @@ public class MotosService {
     public List<Brand> getBrands(){
     	return brandMapper.selectAll();
     }
-
+    
+    /**
+     * バイク情報を更新する
+     * @param moto バイク情報
+     * @return 更新件数
+     */
 	public int save(Motorcycle moto) {
-		return mapper.update(moto);
+		int cnt = mapper.update(moto);
+		if(cnt == 0) {
+			throw new OptimisticLockingFailureException("楽観的排他エラー");
+		}
+		return cnt;
 		
 	}
 }
